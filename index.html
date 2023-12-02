@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Resume</title>
+
+    <link rel="stylesheet" href="resume.css">
+    <script src="resume.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <nav id="navbar" style="top: 0px;">
+        <a href="#home">Home</a>
+        <a href="#about" onclick="onClickSect('about')">About</a>
+        <a href="#education" onclick="onClickSect('education')">Education</a>
+        <a href="#projects" onclick="onClickSect('projects')">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <div class="profile" id="home">
+        <img src="IMG_1454-04.jpeg.jpg" alt="atharv mahabal img">
+        <p>Atharv Mahabal<br>
+            <span>Student & Computer Enthuasist</span>
+        </p>
+    </div>
+
+    <div class="wrapper">
+
+        <div class="sect" id="about" onclick="onClickTransition(this)">
+
+            <h3>ABOUT ME</h3>
+            <p>Hi there! Myself Atharv Shrikant Mahabal,<br>
+                a BCA student with a passion for coding and technology. From C to Python, I enjoy making technology
+                work. <br>
+                When I'm not coding, you'll find me immersed in art, sketching and painting my imagination.<br>
+                Excited to learn more and explore all the amazing stuff in the world of computer applications!</p>
+        </div>
+
+        <div class="sect" id="education" onclick="onClickTransition(this)">
+
+            <h3>EDUCATION</h3>
+            <p>Currently I'm pursuing Bachelors Degree in Computer Applications at Abasaheb Garware College in Pune,
+                affiliated to Savitribai Phule Pune University.</p>
+            <p>I've completed higher secondary education with percentage 88% at Dr V. K. Toraskar Jr College in Banda.</p>
+        </div>
+
+        <div class="sect" id="projects" onclick="onClickTransition(this)">
+            <h3>PROJECTS</h3>
+            <p>As I'm beginner, I tried some projects using programming languages that I've shared on Github. Link is
+                given below. </p>
+            <a href="https://github.com/Atharv23sm"><button>Github</button></a>
+        </div>
+
+        <div class="sect" onclick="onClickTransition(this)">
+            <h3>SKILLS</h3>
+            <p>C<br>
+            Python<br>
+            Web Design (Basic)<br>
+            PostgreSQL</p>
+        </div>
+        
+        <div class="sect" onclick="onClickTransition(this)">
+            <h3>CERTIFICATIONS</h3>
+            <h4>Udemy Course:</h4>
+            <a
+                href="https://www.udemy.com/certificate/UC-f04a9b3c-e406-4afc-9dda-c4d55acc8a42/"><button>Python</button></a>
+        </div>
+
+    </div>
+
+    <footer id="contact">
+        <p>Contact:<br><br>
+            <a href="tel:+91 9403024974"><i class="fa fa-phone"></i>
+                +91 9403024974</a><br>
+            <a href="mailto:atharvsm23@gmail.com"><i class="fa fa-envelope"></i>
+                atharvsm23@gmail.com</a><br>
+            <a href="https://t.me/atharvmahabal"><i class="fa fa-telegram"></i>
+                Atharv Mahabal</a><br>
+            <a href="https://www.instagram.com/atharv_mahabal/"><i class="fa fa-instagram"></i>
+                @atharv_mahabal</a><br>
+            <a href="https://www.youtube.com/channel/UCNT-OlVSpJW76JTcZ6NxEvQ"><i class="fa fa-youtube-play"></i>
+                Atharv Uploads</a>
+        </p>
+    </footer>
+
+</body>
+
+</html>
