@@ -5,7 +5,7 @@ window.onscroll = function () {
     if (prev_scroll > cur_scroll) {
         document.getElementById("navbar").style.top = "0";
     } else {
-        document.getElementById("navbar").style.top = "-5vw";
+        document.getElementById("navbar").style.top = "-6vw";
     }
     prev_scroll = cur_scroll;
 }
